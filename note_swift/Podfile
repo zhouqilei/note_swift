@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'note_swift' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for note_swift
+    pod 'SnapKit', '~> 5.0.0'
+    pod 'SDWebImage'
+    pod 'Toast-Swift'
+    pod 'MJRefresh'
+    pod 'Alamofire', '~> 5.2'
+    pod 'SQLite.swift', '~> 0.12.0'
+    pod 'SwifterSwift/Foundation'
+    pod 'SwifterSwift/UIKit'
+    pod 'SwifterSwift/AppKit'
+end
